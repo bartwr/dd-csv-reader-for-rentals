@@ -14,7 +14,7 @@ const { stringify } = require("csv-stringify");
 // 8: lat_end: '51.89153',
 // 9: lng_end: '4.49378',
 
-const fileNameToImport = '20221201_export_trips_Kievitslaan-2022-06-01-to-2022-12-01.csv';
+const fileNameToImport = '20221201_export_trips_Willemsplein-2022-06-01-to-2022-12-01.csv';
 
 let allCsvData = [], aggregatedPerWeek = [];
 
@@ -23,7 +23,8 @@ const providers = [
   "felyx",
   "gosharing",
   "donkey",
-  "baqme"
+  "baqme",
+  "lime"
 ];
 
 const aggregatePerWeek = (data) => {
