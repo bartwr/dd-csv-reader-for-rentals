@@ -1,0 +1,23 @@
+{
+  "name": "dd-csv-reader-for-rentals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bartwr/dd-csv-reader-for-rentals.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bartwr/dd-csv-reader-for-rentals/issues"
+  },
+  "homepage": "https://github.com/bartwr/dd-csv-reader-for-rentals#readme",
+  "dependencies": {
+    "csv": "^6.2.5",
+    "moment": "^2.29.4"
+  }
+}
